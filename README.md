@@ -49,5 +49,5 @@ No other runtime dependencies.
 ## Run tests
 
 ```
-clojure -M:test
+kbb -M:test
 ```
