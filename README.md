@@ -37,11 +37,11 @@ No other runtime dependencies.
 
 ## Source
 
-- `src/input_scene.cljc` — namespace `input-scene`, ~200 lines.
+- `src/input_scene.cljk` — namespace `input-scene`, ~200 lines.
 - `resources/input.edn` — the shipped EDN config, also inlined as the
   `input-edn` string constant in the source (the CLJC-portable equivalent of
   the original's `include_str!`).
-- `test/input_scene_test.cljc` — every original Rust `#[test]` (from both
+- `test/input_scene_test.cljk` — every original Rust `#[test]` (from both
   `src/lib.rs`'s `#[cfg(test)] mod tests` and `tests/input_parity.rs`) ported
   1:1, plus a namespace-loads smoke test: 12 tests / 56 assertions, 0
   failures.
